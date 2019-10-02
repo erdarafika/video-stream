@@ -27,7 +27,7 @@ var viewer_config = {
 var gunViewer = new GunViewer(viewer_config);
 
 //Configure GUN to pass to streamer
-var peers = ['https://gunmeetingserver.herokuapp.com/gun'];
+var peers = ['http://3.1.6.60:8011/gun'];
 var opt = { peers: peers, localStorage: false, radisk: false };
 var gunDB = Gun(opt);
 
